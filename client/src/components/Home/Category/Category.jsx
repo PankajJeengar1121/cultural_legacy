@@ -6,7 +6,7 @@ const Category = ({ categories }) => {
     const navigate = useNavigate();
     return (
         <div className="shop-by-category">
-            <div className="categories">
+            <div className="categories" id="categories">
                 {categories && categories.data && categories.data.map((item) => (
                     <div key={item.id} className="category" onClick={() => navigate(`/category/${item.id}`)}>
                         <img src={

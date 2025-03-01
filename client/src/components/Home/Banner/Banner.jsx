@@ -2,7 +2,7 @@ import "./Banner.scss";
 import BannerImg from "../../../assets/banner-img.png";
 const Banner = () => {
     return <div className="hero-banner">
-        <div className="content">
+        <div className="content" id="home">
             <div className="text-content">
                 <h1>Mojri</h1>
                 <p><br />
